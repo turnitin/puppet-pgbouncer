@@ -52,7 +52,7 @@ class pgbouncer::params {
     unix_socket_dir             => $unix_socket_dir,
     auth_file                   => $userlist_file,
     listen_addr                 => '*',
-    listen_port                 => '6432',
+    listen_port                 => '6543',
     admin_users                 => 'postgres',
     stats_users                 => 'postgres',
     auth_type                   => 'trust',
